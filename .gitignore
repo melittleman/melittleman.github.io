@@ -1,12 +1,15 @@
-.sass-cache/
+# Jekyll
 .jekyll-cache/
 .jekyll-metadata
 
+# Builds
+.sass-cache/
 _site/
 
+# Dependencies
 vendor/
 node_modules/
 
-
-
-
+# Ruby Gems
+*.gem
+Gemfile.lock

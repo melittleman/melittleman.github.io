@@ -18,21 +18,42 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Matt Lindsay
+subtitle: Senior Software Engineer
+email: melittlematt@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  My name is Matt, and I'm a Senior Software Engineer living in Norfolk, UK.
+  This is my personal bio, portfolio, CV and blog website! Please feel free
+  to get in contact if you would like to collaborate together.
+url: "https://mattlindsay.dev"
+twitter_username: melittlematt
+github_username:  melittleman
+author: Matthew Lindsay
+county: Norfolk
+country: United Kingdom
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/melittleman
+  LinkedIn: https://www.linkedin.com/in/mattlindsay94
+  Twitter: https://twitter.com/melittlematt
+  Instagram: https://www.instagram.com/mattylindsay_
+  Discord: https://discordapp.com/users/544209764486479882
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
 
 # Build settings
-theme: minima
+markdown: kramdown
 plugins:
   - jekyll-feed
+
+sass:
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -41,15 +62,13 @@ plugins:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+- "*.gemspec"
+- LICENSE
+- README.md 
+- .sass-cache/
+- .jekyll-cache/
+- gemfiles/
+- Gemfile
+- Gemfile.lock
+- node_modules/
