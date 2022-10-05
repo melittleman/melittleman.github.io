@@ -18,6 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+#-------------------------------
+# General Site Settings
 title: Matt Lindsay
 subtitle: Senior Software Engineer
 email: melittlematt@gmail.com
@@ -25,15 +27,60 @@ description: >- # this means to ignore newlines until "baseurl:"
   My name is Matt, and I'm a Senior Software Engineer living in Norfolk, UK.
   This is my personal bio, portfolio, CV and blog website! Please feel free
   to get in contact if you would like to collaborate together.
-url: "https://mattlindsay.dev"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mattlindsay.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: melittlematt
 github_username:  melittleman
 author: Matthew Lindsay
 county: Norfolk
 country: United Kingdom
 
-# social settings (key must match name of font awesome icon)
-# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+#-------------------------------
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
+
+#-------------------------------
+# Page Settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+paginate: 6
+paginate_path: "/blog/page/:num"
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 1
+
+#-------------------------------
+# Social Settings (key must match name of font awesome icon)
+# see: https://fontawesome.com/icons?d=gallery&p=2&s=brands
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
@@ -43,16 +90,18 @@ socials:
   Instagram: https://www.instagram.com/mattylindsay_
   Discord: https://discordapp.com/users/544209764486479882
 
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 1
-
-# Build settings
+#-------------------------------
+# Build Settings
 markdown: kramdown
+permalink: /:title
 plugins:
   - jekyll-feed
+  - jekyll-timeago
+  - jekyll-paginate
+  - jekyll-sitemap
 
 sass:
+  sass_dir: _sass
   style: compressed
 
 # Exclude from processing.

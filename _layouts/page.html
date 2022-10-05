@@ -1,13 +1,36 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-{% include head.html %}
+<div class="container">
+  <div class="row">
 
-<body>
-    <script type="text/javascript">document.body.classList.add("is-loading");</script>
+    <div class="col col-12">
+      <div class="page-head">
+        <h1 class="page-title">{{ page.title | escape }}</h1>
+        {% if page.description %}
+          <p class="page-description">{{ page.description }}</p>
+        {% endif %}
+      </div>
+    </div>
 
-    {% include header.html %} {{ content }} {% include footer.html %}
+    {%if page.image %}
+    <div class="col col-12">
+      <div class="page-image animate">
+        <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+      </div>
+    </div>
+    {% endif %}
 
-</body>
+  </div>
+</div>
 
-</html>
+<!-- begin page -->
+<div class="container animate">
+  <article class="page">
+    <div class="page__content">
+      {{ content }}
+    </div>
+  </article>
+</div>
+<!-- end page -->
