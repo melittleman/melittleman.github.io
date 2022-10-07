@@ -11,22 +11,32 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
+
+    - title: 'About'
+      url: '/about/'
+
     - title: 'Blog'
       url: '/blog/'
+
+    # - title: 'Projects'
+    #   url: '/projects/'
+
     - title: ''
-      submenu:
-      - url: '/about/'
-        title: 'About'
-      - url: '/contact/'
-        title: 'Contact'
+      submenu:  
+      - title: 'Contact'
+        url: '/contact/'
+
+      - title: 'Privacy'
+        url: '/privacy/'
+
+      # - title: 'Cookies'
+      #   url: '/cookies/'
 
 #-------------------------------
 # Author Settings
 author:
   author__name: Matt Lindsay
-  author__bio: My name's Matt and I'm a Senior Software Engineer living in Norfolk, UK.
+  author__bio: My name's <strong>Matt</strong>, I'm a <strong>Senior Software Engineer</strong> and <strong>Drummer</strong> living in Norfolk, UK.
   author__avatar: '/assets/images/avatar.jpg'
 
 social:
@@ -46,9 +56,9 @@ social:
 hero:
   hero__title: Hey, I'm Matt!
   hero__description: >- # ignore newlines
-    My name's Matt and I'm a Senior Software Engineer living in Norfolk, UK.
-    This is my personal bio, portfolio, CV and blog website! Please feel free
-    to get in contact if you would like to collaborate together.
+    My name's <strong>Matt</strong>, I'm a <strong>Senior Software Engineer</strong> and <strong>Drummer</strong> based in Norfolk, UK.
+    This is my personal Bio, Portfolio, Resume and Blog website! Please feel free
+    to <a href="/contact">get in contact</a> if you would like to collaborate together or read more <a href="/about">about me</a>...
   hero__image: '/assets/images/hero.jpg'
 
 #-------------------------------
@@ -104,19 +114,19 @@ testimonial__items:
 # Blog Section
 blog__settings:
   blog__title: Recent Posts
-  blog__description:
+  blog__description: This is what I've been writing about lately. Be sure to check back regularly for new updates!
 
 #-------------------------------
 # Gallery Footer Settings
 gallery:
   gallery__images:
-    - alt: 'Rest'
+    - alt: 'Playing on my Drum kit'
       url: '/assets/images/gallery-1.jpg'
-    - alt: 'Lifestyle'
+    - alt: 'Standing on a beach in Cancun, Mexico'
       url: '/assets/images/gallery-2.jpg'
-    - alt: 'Hobby'
+    - alt: 'Playing on someone elses Drum kit'
       url: '/assets/images/gallery-3.jpg'
-    - alt: 'Notes'
+    - alt: 'A photo I took of this website open in Visual Studio Code'
       url: '/assets/images/gallery-4.jpg'
 
 #-------------------------------
@@ -125,14 +135,21 @@ footer_menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
+
+    - title: 'About'
+      url: '/about/'
+    
     - title: 'Blog'
       url: '/blog/'
-    - url: '/about/'
-      title: 'About'
-    - url: '/contact/'
-      title: 'Contact'
+
+    # - title: 'Projects'
+    #   url: '/projects/'
+
+    - title: 'Contact'
+      url: '/contact/'
+    
+    - title: 'Privacy'
+      url: '/privacy/'  
 
 #-------------------------------
 # Contact Settings

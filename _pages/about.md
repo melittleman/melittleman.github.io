@@ -1,32 +1,34 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
-image: '/assets/images/01-2.jpg'
+image: '/assets/images/about.jpg'
 ---
 
-Leverage agile frameworks to provide a robust Hugo Sousa synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Hey, my name's **Matt**. I'm a **Software Engineer**, **Musician**, **Drummer**, **Travel Addict**, **Investor**, **Gamer**, **PC Enthusiast** and overall _nerd_ in general... currently living in Norfolk in the United Kingdom, where I also grew up.
 
-Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services. Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources.
+I started my career as a **Front-End Web Developer**, then moved into a **Full-Stack Software Developer** role and finally to my current position of **Senior Software Engineer** over the past _5 years_. However, I've had an interest in anything _computers_ and _tech_ for as long as I can remember.
+
+My current professional _stack_ revolves around everything **C# / .NET** including Web **API**s, **Razor** Pages, **Blazor** SPA applications and Microsoft **SQL** Server.
+
+However, I'm very passionate about continued learning during my free time in a personal capacity and have an interest in expanding my knowledge and skillset in **OAuth2.0**, **OpenID Connect  (OIDC)**, **Go**, **Redis**, **GraphQL** and **NoSQL** just to name a few.
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/assets/images/100.jpg" loading="lazy">
-    <img src="/assets/images/105.jpg" loading="lazy">
-    <img src="/assets/images/103.jpg" loading="lazy">
+    <img alt="A portrait photo that was taken of me on holiday" src="/assets/images/headshot-2.png" loading="lazy">
+    <img alt="The logo I created for this website" src="/assets/images/mattlindsay_logo.png" loading="lazy">
+    <img alt="A professional headshot of myself" src="/assets/images/headshot-1.jpg" loading="lazy">
   </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
+  <!-- <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em> -->
 </div>
 
-Completely synergize resource taxing relationships via premier niche markets. Cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+In the evenings and at the weekends I'm probably working on personal projects, trying to build up a portfolio of different applications, utilizing different technologies and techniques so that knowledge can be pulled from during my day job. Be sure to check back here as I update the site with completed projects or [Blog](/blog/) posts. Head over to [GitHub](https://github.com/melittleman) to check out my portfolio!
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
+![A professional headshot of myself]({{site.baseurl}}/assets/images/hero-alt.jpg)
+<!-- *Photo by [Alyssa Strohmann](https://unsplash.com/photos/2r2RUsEU1Aw) on [Unsplash](https://unsplash.com/)* -->
 
-Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures.
+When I'm not staring at a screen, you'll likely find me playing drums, reading a self-improvement book, jamming with friends or bandmates, travelling and visiting new places or researching and studying up on new financial investment opportunities.
 
-![Sea]({{site.baseurl}}/assets/images/106.jpg)
-*Photo by [Alyssa Strohmann](https://unsplash.com/photos/2r2RUsEU1Aw) on [Unsplash](https://unsplash.com/)*
+<!-- Finish writing more about band, touring etc... -->
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-
-Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies without market-driven best practices.
+> Start now! Get perfect later...
