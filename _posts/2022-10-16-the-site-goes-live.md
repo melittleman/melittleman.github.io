@@ -2,7 +2,7 @@
 layout: post
 title:  The Site Goes Live!
 description: My personal website finally goes live. And with a new lick of paint...
-date:   2022-10-06 23:24
+date:   2022-10-21 00:00
 image:  '/assets/images/2022-10-06.jpg'
 tags:   [software, code, website]
 ---
@@ -10,9 +10,6 @@ tags:   [software, code, website]
 If you're reading this, then _**thank you!**_ You're one the first people to view this post, this blog and probably even this website...
 
 I imagine the title **The Site Goes Live!** is not too much of a shock for you, seeing as you're already visiting. But nonetheless I wanted the first post to the _new_ website to be about the website itself (the reason I italicized _new_ there, is because there really isn't anything very _new_ about this site at all... which we will get onto shortly). With the hope that my documenting of the process will help someone else along the way should they also decide to create their own Bio, Portfolio or Blog website.
-
-
-
 
 <!-- In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerumano occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et sed potionibus, minorem voluptatem. Ego quoque, inquit, didicerim libentius si quiduse.
 
